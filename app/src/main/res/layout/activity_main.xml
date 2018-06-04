@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textView_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dim_16dp"
+        android:paddingEnd="@dimen/dim_16dp"
+        android:paddingStart="@dimen/dim_16dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/pagerTabStrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/PagerTabStripText">
+
+        </android.support.v4.view.PagerTabStrip>
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

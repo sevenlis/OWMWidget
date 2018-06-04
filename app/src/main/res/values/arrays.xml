@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="time_interval_names">
+        <item>1 min.</item>
+        <item>30 min.</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+    </string-array>
+    <string-array name="time_interval_values">
+        <item>1</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+    </string-array>
+</resources>
